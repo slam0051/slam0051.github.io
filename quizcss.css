@@ -1,0 +1,47 @@
+/* .center{
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+
+
+} */
+
+.container {
+    text-align: center; 
+}
+
+.center-buttons{
+    position: relative;
+    left: 20px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+    /* display: inline-block; */
+    
+}
+
+.btn-primary,
+.btn-secondary {
+    text-align: left; /* Aligns the text inside the buttons to the left */
+    width: auto; /* Ensures buttons take up only necessary width */
+    display: block; /* Ensures each button appears on a new line */
+    margin-bottom: 10px;
+}
+body {
+
+    background-color: rgb(173, 230, 212);
+}
+
+.app {
+    background: #fff;
+    width: 80%;
+    max-width: 700px;
+    margin: 150px auto 0;
+    border-radius: 15px;
+    padding: 30px;
+    position: relative;
+}
+
+.app h1 {
+    text-align: center;
+}
