@@ -66,7 +66,7 @@ $(document).ready(function(){
     function multichoicechecking() { 
         for (var i = 0; i < questions[currentquestion].choices.length; i++) {
 
-            // (function(index) {
+            (function(index) {
                 var choiceButton = $('<button type="button" class="btn btn-primary">' + questions[currentquestion].choices[index] + '</button>');
                 $(".center-buttons").append(choiceButton);
                 choiceButton.click(function() {
@@ -79,7 +79,7 @@ $(document).ready(function(){
                     }
                 });
 
-            // })(i);
+            })(i);
         }
     }
     
