@@ -1,5 +1,4 @@
 
-
 $(document).ready(function(){
 
     var questions = [{
@@ -39,14 +38,8 @@ $(document).ready(function(){
     function multichoicechecking() { 
         for (var i = 0; i < questions[currentquestion].choices.length; i++) {
 
-<<<<<<< HEAD
-            // (function(index) {
-                var choiceButton = $('<button type="button" class="btn btn-primary">' + questions[currentquestion].choices[i] + '</button>');
-=======
-            (function(index) {
-                var choiceButton = $('<button type="button" class="btn btn-primary">' + questions[currentquestion].choices[index] + '</button>');
->>>>>>> 99eacdd05fdba6bcdcbc0d45d4f17e6fa470c0e8
-                $(".center-buttons").append(choiceButton);
+            var choiceButton = $('<button type="button" class="btn btn-primary">' + questions[currentquestion].choices[i] + '</button>');
+            $(".center-buttons").append(choiceButton);
         var p = 0
         choiceButton.click(function() {
         $(".btn-primary").removeClass("btn-success");
@@ -56,20 +49,14 @@ $(document).ready(function(){
         if ($(this).text() === questions[currentquestion].answer) {
             if (p === 0){
             value ++
-            p ++    
-        }
+            p ++    }
         }
 
         if (p===1 && $(this).text() !== questions[currentquestion].answer) {
             value --
-            p --
-        }
-               
-                });
-
-            })(i);
-        }
-    }
+            p --}   
+        })
+    }}
     
     // what type the question is 
     
@@ -98,5 +85,4 @@ $(document).ready(function(){
     // total value score gotten
     console.log("correct: " + value);
 })
-
 
