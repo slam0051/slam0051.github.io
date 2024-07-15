@@ -1,41 +1,81 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="css.css">
-    </head>
-    <body>
-        <div class="topnav">
-            <a href="index.html">Home</a>
-            <a href="learnMore.html">Learn More</a>
-            <a class="active" href="whatYouCanDo.html">What You Can Do</a>
-            <a href="quiz.html">Quiz</a>
-        </div>
-        <div class="content">
-            <h1>Tips For a Sustainable Lifestyle</h1>
-            <p>Here are some everyday tips and tricks you can follow to ensure a healthier and more sustainable future for our planet.</p>
-            
-            <h2>1. Recycling</h2>
-            <p>Embracing the mantra of ‘reduce, reuse, recycle’ can significantly benefit both the planet and your finances.</p>
-            <p><strong>Reduce:</strong> Consume less by buying fewer items, extending the life of belongings, and choosing sustainable products.</p>
-            <p><strong>Reuse:</strong> Opt for reusable alternatives and repurpose items to minimize waste, like using reusable grocery bags and reducing food waste.</p>
-            <p><strong>Recycle:</strong> Properly sort recyclables to prevent environmental pollution and consult local guidelines for correct disposal.</p>
-            <img src="recycling.jpg" class="img-fluid" alt="Recycling">
-            
-            <h2>2. Energy & Water Usage</h2>
-            <p>Conserving energy and water benefits both the planet and your wallet. Simple home adjustments, like using energy-efficient appliances, natural cooling and heating, timing showers, and turning off unused electronics and lights, can lead to significant savings on utility bills while promoting sustainability.</p>
-            <img src="energy.png" class="img-fluid" alt="Energy Conservation">
-            
-            <h2>3. Using Sustainable Transport Options</h2>
-            <p>Using public transport in Australia, where available, helps reduce your carbon footprint by lowering carbon emissions per person. To make bus trips more enjoyable, consider it "me time" to listen to podcasts, read, or practice hobbies, adding relaxation or recreation to your day.</p>
-            <img src="publictransport.jpg" class="img-fluid" alt="Public Transport">
-            
-            <h2>4. Choose Sustainable Food Options</h2>
-            <p>Choosing certain foods can promote a sustainable lifestyle. Opt for low-impact, environmentally-friendly foods to reduce your carbon footprint. Adopting a plant-based diet and eating less meat, even just one meatless meal per week, helps conserve environmental and energy resources.</p>
-            <img src="food.png" class="img-fluid" alt="Sustainable Food">
-            
-            <h2>5. Reduce Plastic Usage</h2>
-            <p>Major Australian retailers have eliminated single-use plastics, encouraging shoppers to use reusable or paper bags. This move supports sustainability by reducing plastic pollution. To further minimize single-use plastics, consider using a Keep-Cup for coffee and Tupperware for leftovers. Many supermarkets also offer refillable pantry basics, providing more ways to avoid single-use plastics.</p>
-            <img src="plastic.png" class="img-fluid" alt="Reduce Plastic Usage">
-        </div>
-    </body>
+<head>
+  <link rel="stylesheet" href="css.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  <style>
+    .page2 h1, .page2 h2, .page2 p {
+      text-align: center;
+    }
+    .page2 img {
+      display: block;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#">ECOSPHERE</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="learnMore.html">Learn More</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="whatYouCanDo.html">What You Can Do</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="quiz.html">Quiz</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container page2">
+    <h1>Tips For a Sustainable Lifestyle</h1>
+    <p>Here are some everyday tips and tricks you can follow to ensure a healthier and more sustainable future for our planet.</p>
+    
+    <div class="my-4">
+      <h2>1. Recycling</h2>
+      <p>Embracing the mantra of ‘reduce, reuse, recycle’ can significantly benefit both the planet and your finances.</p>
+      <p><strong>Reduce:</strong> Consume less by buying fewer items, extending the life of belongings, and choosing sustainable products.</p>
+      <p><strong>Reuse:</strong> Opt for reusable alternatives and repurpose items to minimize waste, like using reusable grocery bags and reducing food waste.</p>
+      <p><strong>Recycle:</strong> Properly sort recyclables to prevent environmental pollution and consult local guidelines for correct disposal.</p>
+      <img src="./images/recycling.jpg" class="img-fluid" alt="Recycling">
+    </div>
+    
+    <div class="my-4">
+      <h2>2. Energy & Water Usage</h2>
+      <p>Conserving energy and water benefits both the planet and your wallet. Simple home adjustments, like using energy-efficient appliances, natural cooling and heating, timing showers, and turning off unused electronics and lights, can lead to significant savings on utility bills while promoting sustainability.</p>
+      <img src="./images/energy.png" class="img-fluid" alt="Energy">
+    </div>
+    
+    <div class="my-4">
+      <h2>3. Using Sustainable Transport Options</h2>
+      <p>Using public transport in Australia, where available, helps reduce your carbon footprint by lowering carbon emissions per person. To make bus trips more enjoyable, consider it "me time" to listen to podcasts, read, or practice hobbies, adding relaxation or recreation to your day.</p>
+      <img src="./images/publictransport.jpg" class="img-fluid" alt="Public Transport">
+    </div>
+    
+    <div class="my-4">
+      <h2>4. Choose Sustainable Food Options</h2>
+      <p>Choosing certain foods can promote a sustainable lifestyle. Opt for low-impact, environmentally-friendly foods to reduce your carbon footprint. Adopting a plant-based diet and eating less meat, even just one meatless meal per week, helps conserve environmental and energy resources.</p>
+      <img src="./images/food.png" class="img-fluid" alt="Food">
+    </div>
+    
+    <div class="my-4">
+      <h2>5. Reduce Plastic Usage</h2>
+      <p>Major Australian retailers have eliminated single-use plastics, encouraging shoppers to use reusable or paper bags. This move supports sustainability by reducing plastic pollution. To further minimize single-use plastics, consider using a Keep-Cup for coffee and Tupperware for leftovers. Many supermarkets also offer refillable pantry basics, providing more ways to avoid single-use plastics.</p>
+      <img src="./images/plastic.png" class="img-fluid" alt="Plastic Usage">
+    </div>
+  </div>
+</body>
 </html>
