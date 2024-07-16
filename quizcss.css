@@ -46,3 +46,35 @@ body {
     text-align: center;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar .navbar-brand {
+  margin-left: 0;
+}
+
+.navbar .navbar-collapse {
+  justify-content: flex-end;
+}
+
+.navbar .navbar-nav {
+  display: flex;
+  gap: 15px; /* Adjust the gap between links as needed */
+}
+
+.navbar .nav-item {
+  list-style: none;
+}
+
+.navbar .nav-link {
+  text-decoration: none;
+  color: inherit; /* Maintain the original link color */
+  padding: 8px 12px; /* Adjust the padding for better spacing */
+}
+
+.navbar-toggler {
+  margin-left: auto; /* Ensure the toggler aligns correctly on smaller screens */
+}
+
